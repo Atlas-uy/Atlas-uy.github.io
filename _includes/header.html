@@ -4,13 +4,15 @@
       {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
       {%- if titles_size > 0 -%}
         <nav>  
-            <a class="" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+          <ul>
+            <li><a class="text-lg" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></li>
             {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
-              <a class="" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              <li><a class="text-lg" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
               {%- endif -%}
             {%- endfor -%}
+          </ul>
         </nav>
       {%- endif -%}
   </header>

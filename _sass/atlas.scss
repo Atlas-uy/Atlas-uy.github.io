@@ -1,3 +1,139 @@
 body{
-  background-color: red;
+  // background-color: #f1ff00;
+  background-color: #fff;
+  padding: 10px;
+  font-family: "Atlas", Sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.text-lg {
+  font-size: 2.8vw;
+  line-height: 1.1;
+}
+.text-sm {
+  font-size: 24px;
+}
+.post-meta{
+  font-size: 24px;
+}
+.right-align{
+  text-align: right;
+}
+// HEADER 
+header {
+  width: 40vw;
+  float: left;
+}
+main {
+  width: 50vw;
+  float: right;
+  ul{
+    list-style: none;
+    padding-left: 0px;
+    li{
+      margin-bottom: 5px;
+    }
+  }
+}
+.main-content{
+  margin-bottom: 0px;
+  min-height: calc(100vh - 60px);
+  .text-lg{
+    p:first-child{
+      margin: 0px;
+    }
+    a{
+      text-decoration: line-through;
+          color: black;
+          &:hover{
+            text-decoration: none;
+            color: black;
+          }
+    }
+  }
+  img.post-image-full {
+    width: calc(100vw - 40px);
+    margin-left: calc(-50vw + 39px);
+    margin-top: 10px;
+} 
+img.post-image-left {
+  width: calc(50vw - 30px);
+  margin-left: calc(-50vw + 39px);
+  margin-top: 10px;
+}
+img.post-image-right {
+  width: calc(50vw - 30px);
+  margin-top: 10px;
+  float: right;
+}
+}
+.main-content-home {
+  height: calc(100vh - 60px);
+  .text-lg{
+    p{
+      margin: 0px;
+    }
+  }
+}
+// NAV
+nav {
+  ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    li {
+      a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+          text-decoration: line-through;
+          color: black;
+        }
+      }
+    }
+  }
+}
+ul.post-list{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 90px;
+    li{
+      &:nth-child(even){
+        text-align: right;
+        margin: 10px 0px;
+      }
+      span{
+        font-size: 24px;
+        margin-left: 5px;
+      }
+      a{
+        text-decoration: none !important;
+        &:hover{
+          text-decoration: line-through !important;
+          img.post-image{
+            opacity: 1;
+            transition: all 0.1s ease-in;
+          }
+        }
+      }
+      img.post-image{
+        width: 30vw;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        opacity: 0;
+        transition: all 0.1s ease-out;
+        object-fit: cover;
+        object-position: center;
+        height: 30vw;
+      }
+  }
+}
+// FOOTER 
+footer {
+  width: 50vw;
+  float: right;
+  margin-bottom: 20px;
+  // margin-top: -20px;
 }

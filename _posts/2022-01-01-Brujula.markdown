@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Brújula de Innovacion"
-date:   2022-12-21 17:12:19 -0300
+date:   2022-12-11 17:12:19 -0300
 categories: jekyll update
 image: /assets/blogimages/tiles/brujula.jpg
 ---

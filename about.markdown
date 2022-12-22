@@ -5,7 +5,7 @@ permalink: /info/
 ---
 Atlas es una consultora de productos digitales especializada en el desarrollo de sistemas de alta complejidad, brindando soluciones de TI para clientes de todo el mundo.
 
-Contamos con 20 años de experiencia en el desarrollo de proyectos, combinando diseño, estrategia y programación, en soluciones tecnológicas que ofrecen experiencias significativas a los usuarios.
+Contamos con 20 años de experiencia en el desarrollo de proyectos, combinando diseño, estrategia y programación en soluciones tecnológicas que ofrezcan experiencias significativas a las personas.
 
 <ul class="right-align">
 <span class="text-sm">Servicios</span>

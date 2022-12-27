@@ -8,17 +8,23 @@ Atlas es una consultora de productos digitales especializada en el desarrollo de
 Contamos con 20 años de experiencia en el desarrollo de proyectos, combinando diseño, estrategia y programación en soluciones tecnológicas que ofrezcan experiencias significativas a las personas.
 
 <ul class="right-align">
-<span class="text-sm">Servicios</span>
+<span class="text-sm">Servicios de estrategia</span>
   <li>Estrategia de Producto</li>
   <li>Auditorías UX</li>
   <li>Pruebas de usuario</li>
+  <span class="text-sm">Servicios de diseño</span>
+  <li>Diseño de Producto</li>
   <li>Diseño Web</li>
   <li>Diseño UX</li>
   <li>Diseño UI</li>
   <li>Branding</li>
-  <li>Desarrollo Front-end</li>
+  <span class="text-sm">Servicios de desarrollo</span>
+  <li>Arquitectura de sistemas</li>
   <li>Desarrollo de aplicaciones móviles</li>
   <li>Headless CMS</li>
+  <li>Desarrollo Front-end</li>
+  <li>Desarrollo Back-end</li>
+  <li>Node.js, Python, Django, PHP, Zend, MySQL, PostgreSQL, MariaDB, MongoDB, Redis, Cassandra</li>
 </ul>
 <ul>
 <span class="text-sm">Clientes</span>

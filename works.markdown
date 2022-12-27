@@ -1,5 +1,5 @@
 ---
 layout: blog
 title: Proyectos
-permalink: /Work/
+permalink: /proyectos/
 ---

@@ -37,7 +37,7 @@ Contamos con 20 años de experiencia en el desarrollo de proyectos, combinando d
 </ul>
 
 {: style="text-align: right" }
-<span class="text-sm">Contact</span><br>
+<span class="text-sm">Contacto</span><br>
 [Email](mailto:contacto@atlas.com.uy)<br>
 [Phone](tel:+598 2 99763146)<br>
 [Github](https://github.com/Atlas-uy)

@@ -33,6 +33,7 @@ plugins:
   - jekyll-seo-tag
 
 google_analytics: G-4F0ZMPV8BS
+permalink: /proyectos/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.

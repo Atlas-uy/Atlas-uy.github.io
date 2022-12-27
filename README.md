@@ -32,4 +32,4 @@
 
 
 ### Contacto
-[atlas.com.yt](https://atlas.com.uy)
+[atlas.com.uy](https://atlas.com.uy)
